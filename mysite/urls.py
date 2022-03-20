@@ -4,7 +4,7 @@ from rest_framework import routers
 from myapp import views
 
 router = routers.DefaultRouter()                   
-router.register(r'Purchase', views.PurchaseView, 'Purchase')
+router.register(r'purchase', views.PurchaseView, 'purchase')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
