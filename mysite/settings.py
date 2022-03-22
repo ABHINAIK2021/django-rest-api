@@ -130,4 +130,5 @@ CORS_ORIGIN_WHITELIST = [
     'http://abhisheknaik-abhinaik2021.vercel.app',
     'http://abhisheknaik-git-main-abhinaik2021.vercel.app',
     'http://abhisheknaik.vercel.app',
+    'http://localhost:3000',
 ]
