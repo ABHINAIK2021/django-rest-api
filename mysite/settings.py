@@ -127,8 +127,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-    'http://abhisheknaik-abhinaik2021.vercel.app',
-    'http://abhisheknaik-git-main-abhinaik2021.vercel.app',
-    'http://abhisheknaik.vercel.app',
+    'https://abhisheknaik-abhinaik2021.vercel.app',
+    'https://abhisheknaik-git-main-abhinaik2021.vercel.app',
+    'https://abhisheknaik.vercel.app',
     'http://localhost:3000',
 ]
