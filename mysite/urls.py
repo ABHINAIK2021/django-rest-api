@@ -4,9 +4,9 @@ from rest_framework import routers
 from myapp import views
 
 router = routers.DefaultRouter()                   
-router.register(r'purchase', views.PurchaseView, 'purchase')
+router.register(r'contact', views.ContactView, 'contact')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+    path('', include(router.urls)),
 ]

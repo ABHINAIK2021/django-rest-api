@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from myapp.models import Purchase
-from myapp.serializers import PurchaseSerializer 
+from myapp.models import Contact
+from myapp.serializers import ContactSerializer 
 
-class PurchaseView(viewsets.ModelViewSet):
-    serializer_class = PurchaseSerializer
-    queryset = Purchase.objects.all()
+class ContactView(viewsets.ModelViewSet):
+    serializer_class = ContactSerializer
+    queryset = Contact.objects.all()
